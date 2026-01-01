@@ -9,6 +9,7 @@ Example 1:
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]*/
 
+//sol1
 var reverseString = function (s) {
   s.reverse();
 };
@@ -16,6 +17,7 @@ var reverseString = function (s) {
 let s = ['h', 'e', 'l', 'l', 'o'];
 reverseString2(s);
 
+//sol2
 function reverseString2(s) {
   let left = 0;
   let right = s.length - 1;
